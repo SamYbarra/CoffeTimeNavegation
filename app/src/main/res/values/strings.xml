@@ -1,5 +1,40 @@
 <resources>
-    <string name="app_name">CoffeTime</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">CoffeTime</string>
+    <string name="nameTest">Hello World</string>
+    <string name="coffeText">Coffe</string>
+    <string name="timeText">Time</string>
+    <!--Button-->
+    <string name="btnLogin">Ingresar</string>
+    <string name="btnStart">Empezar</string>
+    <string name="btnPay">Pagar con tarjeta</string>
+    <string name="btnPaypal">Pagar con Paypal</string>
+    <!--Inputs-->
+    <string name="emailHint">Usuario o Correo electrónico</string>
+    <string name="passwordHint">Contraseña</string>
+    <!--MainActivity2-->
+    <string name="txtTitle">We are what we do</string>
+    <string name="txtParagraph">Thousand of people are usign silent moon for smalls meditation</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="txtLogInCheck">Already have an account ?</string>
+    <!--MainActivity3-->
+    <string name="txtTitleLogin">¡ Welcome Back !</string>
+    <string name="btnFacebook">Continuar con facebook</string>
+    <string name="btnGoogle">Continuar con google</string>
+    <string name="cornerBtn">38dp</string>
+    <string name="txtLogin">O loguearte con tu gmail</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="txtUsuario">Usuario o Correo electronico</string>
+    <string name="txtContraseña">Contraseña</string>
+    <!--Shopping Cart-->
+    <string name="titleCart">Tu carrito</string>
+    <string name="txtSubtotal">Subtotal</string>
+    <string name="txtDescuento">Descuento</string>
+    <string name="txtTotal">Total</string>
+    <string name="priceSubtotal">S/40.87</string>
+    <string name="priceDescuento">S/8.07</string>
+    <string name="priceTotal">S/32.80</string>
+
 </resources>

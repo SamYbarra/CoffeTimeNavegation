@@ -7,5 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="EAA92E">#2EEA61</color>
+    <color name="primary">#FCB302</color>
+    <color name="secondary">#F43127</color>
+    <color name="fontPrimary">#0C1423</color>
+    <color name="fontSecondary">#858990</color>
+    <color name="buttonPaypal">#1F265E</color>
+    <color name="fontTitle">#3F414E</color>
+    <color name="btnFacebook">#7583CA</color>
+
 </resources>

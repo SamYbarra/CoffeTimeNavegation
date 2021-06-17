@@ -1,35 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SegundoFragment"
-    android:background="#F3BE25">
+    tools:context=".SegundoFragment">
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="2"
-        android:textSize="250sp"
-        android:textColor="#FFFFFF"/>
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="103dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:srcCompat="@drawable/ic_coffetime" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginRight="177dp"
+        android:fontFamily="@font/grotesk_medium"
+        android:text="@string/txtTitle"
+        android:textColor="@color/fontTitle"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtParagraph"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
 
-        <Button
-            android:id="@+id/btnAtras"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="atras" />
+    <TextView
+        android:id="@+id/txtParagraph"
+        android:layout_width="272dp"
+        android:layout_height="54dp"
+        android:fontFamily="@font/grotesk_medium"
+        android:text="@string/txtParagraph"
+        android:textColor="@color/fontSecondary"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="392dp" />
 
-        <Button
-            android:id="@+id/btnSig"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="siguiente" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="307dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="159dp"
+        android:background="@drawable/btn_round"
+        android:text="@string/btnSignUp"
 
-    </LinearLayout>
 
-</FrameLayout>
+        android:textColor="@color/fontPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtParagraph" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtLogInCheck"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+</androidx.constraintlayout.widget.ConstraintLayout>
